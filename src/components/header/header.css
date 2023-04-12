@@ -1,0 +1,41 @@
+header{
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+/* .header__container {
+    height: 100vh;
+} */
+
+.header__details p {
+    width: 40vw;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .header__imgs {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img {
+    width: 13vw;
+    height: 40vh;
+    border-radius: 45%;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    /* background: red; */
+  }
+
+  .img__change {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 7rem;
+  }
+ 
+
+  

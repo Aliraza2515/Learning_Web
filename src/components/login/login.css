@@ -1,0 +1,36 @@
+.login__container {
+    background: var(--color-light);
+    max-width: max-content;
+    margin: 3rem auto;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.login__container h2 {
+    color: var(--color-primary);
+    margin-top: 0.5rem;
+}
+
+.login__form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+  
+.login__form input {
+    border-radius: 0.5rem;
+}
+
+.login__container button {
+    margin: 1rem auto;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+.login__container span a{
+    font-weight: 500;
+    color : var(--color-primary);
+}
